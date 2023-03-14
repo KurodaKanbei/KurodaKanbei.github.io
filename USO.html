@@ -33,16 +33,19 @@
 
 <h2>Relationship between Optimization Scheme</h2>
 <p> Bernd Gartner and Ingo Schur show that a canonical linear programming defines a USO and finding the unique sink in the hypercube is similar to the simplex method to solve the programming in <a href="https://people.inf.ethz.ch/gaertner/subdir/texts/own_work/lpuso.pdf">linear programming and unique sink orientations</a></p>
+<p> Stickney and Watson (namely pioneer in this topic) show that a linear complementarirty problem can be reduce to USO sink finding in <a href="https://pubsonline.informs.org/doi/abs/10.1287/moor.3.4.322">this paper</a></p>
+
 
 <h2>Find the Sink</h2>
-<p> While the popular differentiable architecture search namely DARTS is largely hindered by its substantial memory cost since the entire supernet resides in the memory. This is where the single-path DARTS comes in, which only chooses a single-path submodel at each step. While being memory-friendly, it also comes with low computational costs. Nonetheless, we discover a critical issue of single-path DARTS that has not been primarily noticed. Namely, it also suffers from severe performance collapse since too many parameter-free operations like skip connections are derived, just like DARTS does. According to that, we propose a new algorithm called RObustifying Memory-Efficient NAS (ROME) to give a cure.</p>
+<p> </p>
 
 
 <h2>Count the Number of USOs</h2>
-<p> A unique sink orientation is an orientation of the hypercube such that for each subcube, there exists a unique sink. Up to now, many efforts have been committed to understand the structure of the USO itself and propose fine-grained algorithm to efficiently find the unique sink of the hypercube. Nonetheless, the relation between different USOs has not been discussed a lot and only a little knowledge is already known about the universal set of all possible USOs. Therefore, we try to aggregate all possible USOs together to formulate the USO polytope, of which each vertex is a single USO. In our paper, we propose several aspects to analyze the structure of the USO polytope, both locally and globally, which will better our understanding of the relationship between different USOs.</p>
+<p> </p>
 
 <h2>USO Polytope</h2>
-<p> A unique sink orientation is an orientation of the hypercube such that for each subcube, there exists a unique sink. Up to now, many efforts have been committed to understand the structure of the USO itself and propose fine-grained algorithm to efficiently find the unique sink of the hypercube. Nonetheless, the relation between different USOs has not been discussed a lot and only a little knowledge is already known about the universal set of all possible USOs. Therefore, we try to aggregate all possible USOs together to formulate the USO polytope, of which each vertex is a single USO. In our paper, we propose several aspects to analyze the structure of the USO polytope, both locally and globally, which will better our understanding of the relationship between different USOs.</p>
+<p> Yuda works on the USO polytope and shows that the polytope automorphism is composed of cube isomorphism and edge flippings for certain directions in <a href="publications/USO.pdf">USO Polytope
+</a></p>
 
 </td>
 </tr>
