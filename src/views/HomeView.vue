@@ -69,7 +69,6 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
   <section id="card-education" class="content-section">
     <div class="section-heading">
       <h2>Education</h2>
-      <p>Degrees, research training, and contest community work.</p>
     </div>
     <div class="timeline-list">
       <v-card
@@ -105,7 +104,6 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
   <section id="card-experience" class="content-section">
     <div class="section-heading">
       <h2>Experience</h2>
-      <p>Industry work in AI infrastructure, high performance systems, and trading infrastructure.</p>
     </div>
     <div class="timeline-list">
       <v-card
@@ -141,7 +139,6 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
   <section id="card-research" class="content-section">
     <div class="section-heading">
       <h2>Research</h2>
-      <p>Selected papers, theses, and manuscripts from the previous publication and research pages.</p>
     </div>
     <div class="timeline-list">
       <v-card
@@ -186,7 +183,6 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
   <section id="card-archive" class="content-section">
     <div class="section-heading">
       <h2>Archive</h2>
-      <p>Problem sets and notes preserved from the old Grand Archive.</p>
     </div>
     <div v-for="group in archiveGroups" :key="group.category" class="archive-group">
       <h3>{{ group.category }}</h3>
@@ -225,7 +221,6 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
   <section id="card-awards" class="content-section">
     <div class="section-heading">
       <h2>Selected Honors</h2>
-      <p>A compact selection from the resume.</p>
     </div>
     <v-list class="honor-list">
       <v-list-item v-for="award in awards" :key="award.name" class="honor-item">

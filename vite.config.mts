@@ -35,4 +35,9 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  build: {
+    rollupOptions: {
+      input: fileURLToPath(new URL('./vite.html', import.meta.url)),
+    },
+  },
 })
