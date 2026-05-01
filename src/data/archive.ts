@@ -25,7 +25,7 @@ const archiveItems: ArchiveItem[] = [
   {
     category: "Problem Sets",
     name: "National Olympiad of Informatics 2019",
-    description: "Problem A is dedicated to my beloved girlfriend Dawn, who has been a constant source of support and inspiration throughout my journey.",
+    description: "Problem A is dedicated to my beloved girlfriend Dongxiao, who constantly supports and inspires me throughout my journey.",
     time: "2019",
     links: [
       { label: "Problems", href: "/archive/noi.pdf" },
