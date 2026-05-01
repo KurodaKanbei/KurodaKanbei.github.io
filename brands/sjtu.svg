@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Shanghai Jiao Tong University">
+  <rect width="320" height="180" rx="16" fill="#fff7f0"/>
+  <circle cx="91" cy="90" r="48" fill="#b91c1c"/>
+  <circle cx="91" cy="90" r="33" fill="none" stroke="#f7d794" stroke-width="8"/>
+  <path d="M91 57v66M58 90h66" stroke="#f7d794" stroke-width="8" stroke-linecap="round"/>
+  <text x="158" y="84" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#2b2422">SJTU</text>
+  <text x="160" y="116" font-family="Inter, Arial, sans-serif" font-size="16" fill="#7e5a48">ACM Honor Class</text>
+</svg>

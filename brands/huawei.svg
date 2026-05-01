@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Huawei">
+  <rect width="320" height="180" rx="16" fill="#fff4f4"/>
+  <g transform="translate(82 90)" fill="#c7000b">
+    <path d="M0-50c14 18 21 34 19 49C7-12-4-28 0-50z"/>
+    <path d="M28-39c5 20 3 36-6 49-5-15-5-31 6-49z"/>
+    <path d="M47-17c-4 21-14 34-30 42 2-17 11-31 30-42z"/>
+    <path d="M-28-39c-5 20-3 36 6 49 5-15 5-31-6-49z"/>
+    <path d="M-47-17c4 21 14 34 30 42-2-17-11-31-30-42z"/>
+    <path d="M-34 34c18 11 36 13 55 5-16 18-37 23-55-5z"/>
+    <path d="M34 34c-18 11-36 13-55 5 16 18 37 23 55-5z"/>
+  </g>
+  <text x="150" y="92" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#2b2422">Huawei</text>
+  <text x="152" y="122" font-family="Inter, Arial, sans-serif" font-size="16" fill="#765355">HKRC</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Robotic Grasping">
+  <rect width="320" height="180" rx="16" fill="#f5fbf7"/>
+  <path d="M90 124V82c0-24 19-43 43-43h26" fill="none" stroke="#176b87" stroke-width="12" stroke-linecap="round"/>
+  <path d="M158 39h42l20 20-20 20h-42z" fill="#c46f2d"/>
+  <path d="M211 82l31 31M241 82l-31 31" stroke="#7d5a50" stroke-width="10" stroke-linecap="round"/>
+  <text x="78" y="154" font-family="Inter, Arial, sans-serif" font-size="18" fill="#57534e">active grasping</text>
+</svg>

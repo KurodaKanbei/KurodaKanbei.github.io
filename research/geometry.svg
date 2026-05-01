@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Computational Geometry">
+  <rect width="320" height="180" rx="16" fill="#f7f5ef"/>
+  <polygon points="52,128 86,48 132,112 178,62 258,126" fill="none" stroke="#176b87" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="86" cy="48" r="7" fill="#c46f2d"/>
+  <circle cx="132" cy="112" r="7" fill="#c46f2d"/>
+  <circle cx="178" cy="62" r="7" fill="#c46f2d"/>
+  <text x="55" y="154" font-family="Inter, Arial, sans-serif" font-size="18" fill="#57534e">visibility in polygons</text>
+</svg>
