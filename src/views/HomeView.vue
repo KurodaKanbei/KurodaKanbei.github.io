@@ -58,6 +58,15 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
           <v-btn href="/archive/resume.pdf" prepend-icon="mdi-file-document-outline" variant="tonal">
             Resume
           </v-btn>
+          <v-btn
+            href="https://www.zhihu.com/people/fan-yu-da-19"
+            target="_blank"
+            rel="noopener noreferrer"
+            prepend-icon="mdi-open-in-new"
+            variant="tonal"
+          >
+            Zhihu
+          </v-btn>
         </div>
       </v-col>
     </v-row>
