@@ -23,22 +23,22 @@ const awards: Award[] = [
   {
     year: "2021-2023",
     name: "Excellence Scholarship, ETH Zurich",
-    description: "No more than ten recipents each year.",
+    description: "Ten recipents each year.",
   },
   {
     year: "2020",
     name: "Outstanding Graduate of Shanghai Jiao Tong University",
-    description: "Graduation honor of Bachelor's degree.",
+    description: "Graduation honor",
   },
   {
     year: "2020",
     name: "Honor Degree Bachelor of Engineering, Zhiyuan College",
-    description: "Undergraduate degree honor.",
+    description: "Graduation honor of Bachelor's degree.",
   },
   {
     year: "2016-2019",
     name: "The First Prize Scholarship at Shanghai Jiao Tong University",
-    description: "Top scholarship during undergraduate study.",
+    description: "Awarding undergraduate course study.",
   },
   {
     year: "2017",
