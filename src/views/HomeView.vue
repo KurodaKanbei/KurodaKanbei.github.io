@@ -32,23 +32,23 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
         </v-avatar>
       </v-col>
       <v-col cols="12" md="9">
-        <p class="eyebrow">AI Infrastructure / HPC / Computational Geometry</p>
+        <p class="eyebrow">AI Infra / High Performance Computing / Heterogenous Computing</p>
         <h1>Yuda Fan | 范裕达</h1>
         <p class="subtitle">I drink water for what it is.</p>
         <div class="summary-copy">
           <p>
-            I am a staff engineer on the AI Infra team at
-            <a href="https://www.xiaohongshu.com/" target="_blank">Rednote Hilab</a>,
-            working on hardware-friendly techniques for LLM inference throughput and latency.
+            I am a staff engineer of the AI Infra team at
+            <a href="https://studio.dots.ai/" target="_blank">Rednote Dots Studio</a>,
+            working on hardware-friendly techniques to improve LLM inference throughput and latency.
           </p>
           <p>
-            Previously, I worked on LLM inference and high performance computing at Huawei Hong Kong Research Center,
+            Previously, I worked heterogenous computing and high performance computing at Huawei Hong Kong Research Center,
             and on high frequency trading systems at Citadel Securities. My systems experience spans Armv8 CPU,
-            Intel AVX512 CPU, Nvidia GPU, Ascend NPU, AMD Alveo FPGA, and Habana HPU.
+            Intel AVX512 CPU, Nvidia GPU, Ascend NPU, and AMD Alveo FPGA.
           </p>
           <p>
-            I graduated from ETH Zurich with distinction in 2024 and received my B.Eng. from the ACM Honor Class
-            at Shanghai Jiao Tong University.
+            I graduated from ETH Zurich with distinction in 2024 and received my B.Eng. with honor from the ACM Honor Class
+            at SJTU.
           </p>
         </div>
         <div class="profile-links">

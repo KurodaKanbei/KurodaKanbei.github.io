@@ -17,14 +17,13 @@ const experiences: Experience[] = [
     imgPath: "/brands/rednote.svg",
     link: "https://www.xiaohongshu.com/",
     highlights: [
-      "Working on hardware-friendly techniques to improve LLM inference throughput and latency.",
-      "Current focus includes quantization, speculative decoding, sparse attention, and related AI infrastructure systems."
+      "Currently focus includes quantization, speculative decoding, sparse attention, and etc."
     ],
   },
   {
     title: "Huawei Hong Kong Research Center",
     role: "Senior Engineer, Information Theory Group",
-    time: "Nov. 2024 - 2026",
+    time: "Nov. 2024 - Feb. 2026",
     location: "Hong Kong, China",
     imgPath: "/brands/huawei.svg",
     link: "https://www.huawei.com/",
@@ -36,13 +35,13 @@ const experiences: Experience[] = [
   {
     title: "Citadel Securities",
     role: "Quantitative Developer",
-    time: "2024",
-    location: "Hong Kong",
+    time: "April. 2024 - Jul. 2024",
+    location: "London, UK",
     imgPath: "/brands/citadel.svg",
     link: "https://www.citadelsecurities.com/",
     highlights: [
       "Worked on high frequency trading systems with a focus on exchange arbitrage.",
-      "Applied low-latency engineering and systems programming experience to production trading infrastructure."
+      "Applied low-latency engineering experience to production trading infrastructure."
     ],
   },
 ]

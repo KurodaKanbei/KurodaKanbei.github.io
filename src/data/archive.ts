@@ -25,7 +25,7 @@ const archiveItems: ArchiveItem[] = [
   {
     category: "Problem Sets",
     name: "National Olympiad of Informatics 2019",
-    description: "Problem A is dedicated to my beloved girlfriend.",
+    description: "Problem A is dedicated to my beloved girlfriend Dawn.",
     time: "2019",
     links: [
       { label: "PDF", href: "/archive/noi.pdf" },
@@ -61,7 +61,7 @@ const archiveItems: ArchiveItem[] = [
   {
     category: "Random Pieces",
     name: "56 Interesting Problems from Andrew Stankevich Contest",
-    description: "A Chinese collection of selected ASC problems from the past 20 years with personal solutions.",
+    description: "My collection of selected ASC problems from the past 20 years with personal solutions.",
     time: "Chinese",
     links: [
       { label: "PDF", href: "/archive/ASC_Problems.pdf" },
@@ -70,7 +70,7 @@ const archiveItems: ArchiveItem[] = [
   {
     category: "Random Pieces",
     name: "Simple Polygonization",
-    description: "A note from the old ongoing projects section.",
+    description: "An old ongoing projects section.",
     time: "Draft",
     links: [
       { label: "PDF", href: "/archive/SP.pdf" },

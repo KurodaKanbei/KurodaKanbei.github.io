@@ -20,7 +20,7 @@ const research: ResearchItem[] = [
     time: "2024",
     imgPath: "/research/geometry.svg",
     description: "Visibility problems in polygons, including approximation and exact algorithms for pseudo-triangles, terrains, fan-shaped polygons, staircase polygons, and related classes.",
-    status: "JCDCGGG; invited to special issue",
+    status: "JCDCGGG, Invited to special issue",
     links: [
       { label: "Paper", href: "/publications/JCDCG_2024.pdf" },
       { label: "Master Thesis", href: "/publications/MT.pdf" },
@@ -31,7 +31,7 @@ const research: ResearchItem[] = [
     authors: "Yuda Fan",
     time: "Manuscript",
     imgPath: "/research/polytope.svg",
-    description: "Studies the structure of the polytope formed by all unique sink orientations of a hypercube, with local and global views of relationships between USOs.",
+    description: "Studies the structure of the polytope spanned by all unique sink orientations of a hypercube, via local and global views of relationships between USOs.",
     status: "Manuscript",
     links: [
       { label: "PDF", href: "/publications/USO.pdf" },
@@ -70,17 +70,17 @@ const research: ResearchItem[] = [
       { label: "PDF", href: "/publications/ICRA.pdf" },
     ],
   },
-  {
-    title: "CyberPanda: A Universal Robotic Arm Simulator Towards Photorealistic Visual Perception",
-    authors: "Yuda Fan",
-    time: "2020",
-    imgPath: "/research/simulator.svg",
-    description: "A universal robotic arm simulator integrating remote procedure calls, rendering, and physics simulation for photorealistic visual perception research.",
-    status: "Bachelor's Thesis",
-    links: [
-      { label: "PDF", href: "/publications/BT.pdf" },
-    ],
-  },
+  // {
+  //   title: "CyberPanda: A Universal Robotic Arm Simulator Towards Photorealistic Visual Perception",
+  //   authors: "Yuda Fan",
+  //   time: "2020",
+  //   imgPath: "/research/simulator.svg",
+  //   description: "A universal robotic arm simulator integrating remote procedure calls, rendering, and physics simulation for photorealistic visual perception research.",
+  //   status: "Bachelor's Thesis",
+  //   links: [
+  //     { label: "PDF", href: "/publications/BT.pdf" },
+  //   ],
+  // },
 ]
 
 export { research, type ResearchItem, type ResearchLink }

@@ -17,18 +17,18 @@ const awards: Award[] = [
   },
   {
     year: "2021",
-    name: "2nd Place, ICPC 2021-2022 Swiss Subregional Individual Contest",
-    description: "Competitive programming.",
+    name: "2nd Place, ICPC 2021-2022 Swiss Subregional Contest",
+    description: "ICPC Individual Contest.",
   },
   {
     year: "2021-2023",
     name: "Excellence Scholarship, ETH Zurich",
-    description: "Graduate study honor.",
+    description: "No more than ten recipents each year.",
   },
   {
     year: "2020",
     name: "Outstanding Graduate of Shanghai Jiao Tong University",
-    description: "Graduation honor.",
+    description: "Graduation honor of Bachelor's degree.",
   },
   {
     year: "2020",
@@ -42,11 +42,6 @@ const awards: Award[] = [
   },
   {
     year: "2017",
-    name: "Rong Chang Scholarship",
-    description: "Top 0.02% of Shanghai Jiao Tong University.",
-  },
-  {
-    year: "2017",
     name: "2nd Place, ACM-ICPC 2017-2018 Hua-Lien Regional Contest",
     description: "Asia-Pacific regional contest.",
   },
@@ -57,8 +52,8 @@ const awards: Award[] = [
   },
   {
     year: "2017",
-    name: "6th Place, ACM-ICPC 2017-2018 Xi'an Regional Contest",
-    description: "Gold medal.",
+    name: "Gold Medal, 6th Place, ACM-ICPC 2017-2018 Xi'an Regional Contest",
+    description: "Competitive programming.",
   },
   {
     year: "2017",
@@ -70,11 +65,11 @@ const awards: Award[] = [
     name: "Gold Medal, 9th Place, ACM-ICPC 2016-2017 Myanmar Regional Contest",
     description: "Competitive programming.",
   },
-  {
-    year: "2017",
-    name: "Gold Medal, 7th Place, ACM-ICPC 2016-2017 Xi'an Invitation Contest",
-    description: "Competitive programming.",
-  },
+  // {
+  //   year: "2017",
+  //   name: "Gold Medal, 7th Place, ACM-ICPC 2016-2017 Xi'an Invitation Contest",
+  //   description: "Competitive programming.",
+  // },
 ]
 
 export { awards, type Award }
