@@ -197,6 +197,16 @@ h1 {
   gap: 12px;
 }
 
+.entry-header > div {
+  min-width: 0;
+}
+
+.entry-header .v-chip {
+  flex-shrink: 0;
+  align-self: flex-start;
+  white-space: nowrap;
+}
+
 .entry-title,
 .research-title {
   color: #182023;
@@ -324,7 +334,15 @@ h1 {
     justify-content: center;
   }
 
-  .entry-header,
+  .entry-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: flex-start;
+  }
+
+  .entry-header .v-chip {
+    justify-self: end;
+  }
+
   .archive-card-header {
     display: grid;
   }
