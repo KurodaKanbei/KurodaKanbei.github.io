@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="ETH Zurich">
-  <rect width="320" height="180" rx="16" fill="#f4f6f7"/>
-  <text x="48" y="105" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" fill="#222">ETH</text>
-  <path d="M182 62h74l-74 56h74" fill="none" stroke="#176b87" stroke-width="16" stroke-linejoin="round"/>
-  <text x="51" y="135" font-family="Inter, Arial, sans-serif" font-size="18" fill="#667074">Zurich</text>
-</svg>

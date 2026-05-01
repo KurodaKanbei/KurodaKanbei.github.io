@@ -14,7 +14,7 @@ const education: EducationItem[] = [
     role: "Direct Doctorate Program and M.Sc. in Computer Science",
     time: "Sep. 2021 - May 2024",
     location: "Zurich, Switzerland",
-    imgPath: "/brands/eth.svg",
+    imgPath: "/brands/eth.jpg",
     link: "https://ethz.ch/",
     highlights: [
       "Ph.D. researcher in Prof. Emo Welzl's group at CADMO, working on computational geometry, graph theory, and combinatorics.",
@@ -51,7 +51,7 @@ const education: EducationItem[] = [
     role: "Team Leader and Head Coach",
     time: "2016 - 2019",
     location: "Shanghai, China",
-    imgPath: "/brands/icpc.svg",
+    imgPath: "/brands/icpc.png",
     link: "https://icpc.global/",
     highlights: [
       "Head coach of the competitive programming team of SJTU from 2018 to 2019.",
