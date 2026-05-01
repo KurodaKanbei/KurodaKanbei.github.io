@@ -17,7 +17,7 @@ const education: EducationItem[] = [
     imgPath: "/brands/eth.jpg",
     link: "https://ethz.ch/",
     highlights: [
-      "Ph.D. researcher in Prof. Emo Welzl's group at CADMO, working on computational geometry, graph theory, and combinatorics.",
+      "Ph.D. researcher in Prof. Emo Welzl's group at CADMO, working on computational geometry, discrete geometry, and combinatorics.",
       "Graduated from ETH Zurich with distinction in 2024."
     ],
   },
@@ -35,14 +35,14 @@ const education: EducationItem[] = [
     ],
   },
   {
-    title: "CCF NOI Contest Series",
-    role: "Technical Staff",
+    title: "CCF NOI",
+    role: "Member of Technical Staff",
     time: "2019 - 2020",
-    location: "China",
+    location: "Beijing, China",
     imgPath: "/brands/ccf.png",
     link: "https://www.noi.cn/",
     highlights: [
-      "Member of technical staff of CCF NOI.",
+      "Technical staff of CCF NOI contest series.",
       "Problem setter for CCF NOI 2019, with broader contest service including ICPC ECL Final and CCPC."
     ],
   },
