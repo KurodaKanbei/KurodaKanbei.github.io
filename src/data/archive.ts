@@ -1,0 +1,81 @@
+interface ArchiveLink {
+  label: string;
+  href: string;
+}
+
+interface ArchiveItem {
+  category: string;
+  name: string;
+  description: string;
+  time: string;
+  links: ArchiveLink[];
+}
+
+const archiveItems: ArchiveItem[] = [
+  {
+    category: "Problem Sets",
+    name: "CCPC 2018 Jilin Onsite",
+    description: "Problem I and K are dedicated to Mr. Kazuki Takahashi, Dr. Richard Garfield, and the people who ceaselessly bring happiness and integrity to this world.",
+    time: "2018",
+    links: [
+      { label: "Problems", href: "/archive/ccpc.pdf" },
+      { label: "Solution", href: "/archive/ccpc_solution.pdf" },
+    ],
+  },
+  {
+    category: "Problem Sets",
+    name: "National Olympiad of Informatics 2019",
+    description: "Problem A is dedicated to my beloved girlfriend.",
+    time: "2019",
+    links: [
+      { label: "PDF", href: "/archive/noi.pdf" },
+    ],
+  },
+  {
+    category: "Problem Sets",
+    name: "Asia East Continent Final 2021",
+    description: "Problem J is dedicated to Mr. Hidetaka Miyazaki and those who bring colorful flavors through their masterpieces.",
+    time: "2021",
+    links: [
+      { label: "Problems", href: "https://codeforces.com/gym/103861/problems" },
+    ],
+  },
+  {
+    category: "Problem Sets",
+    name: "Chinese Girls' Mathematical Olympiad 2023",
+    description: "Problem 8 is a combinatorial gem built on the Erdos-Szekeres theorem.",
+    time: "2023",
+    links: [
+      { label: "Image", href: "/archive/CGMO.png" },
+    ],
+  },
+  {
+    category: "Problem Sets",
+    name: "Asia East Continent Final 2024",
+    description: "Problem I is built on a corollary of the JCDCGGG paper, the hidden point set of a staircase polygon.",
+    time: "2024",
+    links: [
+      { label: "PDF", href: "/archive/ecf24.pdf" },
+    ],
+  },
+  {
+    category: "Random Pieces",
+    name: "56 Interesting Problems from Andrew Stankevich Contest",
+    description: "A Chinese collection of selected ASC problems from the past 20 years with personal solutions.",
+    time: "Chinese",
+    links: [
+      { label: "PDF", href: "/archive/ASC_Problems.pdf" },
+    ],
+  },
+  {
+    category: "Random Pieces",
+    name: "Simple Polygonization",
+    description: "A note from the old ongoing projects section.",
+    time: "Draft",
+    links: [
+      { label: "PDF", href: "/archive/SP.pdf" },
+    ],
+  },
+]
+
+export { archiveItems, type ArchiveItem, type ArchiveLink }

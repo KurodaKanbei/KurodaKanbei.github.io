@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Rednote Hilab">
+  <rect width="320" height="180" rx="16" fill="#fff5f2"/>
+  <circle cx="92" cy="90" r="46" fill="#d9483b"/>
+  <path d="M72 82h41v16H72zM84 63h17v54H84z" fill="#fff"/>
+  <text x="158" y="84" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#2b2422">Rednote</text>
+  <text x="160" y="116" font-family="Inter, Arial, sans-serif" font-size="18" fill="#7f514b">AI Infra</text>
+</svg>

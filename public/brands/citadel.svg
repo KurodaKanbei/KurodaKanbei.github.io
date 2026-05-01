@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="Citadel Securities">
+  <rect width="320" height="180" rx="16" fill="#f2f6f8"/>
+  <path d="M58 122h84L100 44 58 122z" fill="#1f5d78"/>
+  <path d="M82 113h36L100 78 82 113z" fill="#f2f6f8"/>
+  <text x="158" y="84" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" fill="#1c2b32">Citadel</text>
+  <text x="160" y="116" font-family="Inter, Arial, sans-serif" font-size="16" fill="#52676f">Securities</text>
+</svg>
