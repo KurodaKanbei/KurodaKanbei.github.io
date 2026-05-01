@@ -42,7 +42,7 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
             working on hardware-friendly techniques to improve LLM inference throughput and latency.
           </p>
           <p>
-            Previously, I worked heterogenous computing and high performance computing at Huawei Hong Kong Research Center,
+            Previously, I worked on heterogenous computing and high performance computing at Huawei Hong Kong Research Center,
             and on high frequency trading systems at Citadel Securities. My systems experience spans Armv8 CPU,
             Intel AVX512 CPU, Nvidia GPU, Ascend NPU, and AMD Alveo FPGA.
           </p>
@@ -54,9 +54,6 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
         <div class="profile-links">
           <v-btn href="mailto:mistergalahad@gmail.com" prepend-icon="mdi-email-outline" variant="tonal">
             Email
-          </v-btn>
-          <v-btn href="/archive/resume.pdf" prepend-icon="mdi-file-account-outline" variant="tonal">
-            Academic CV
           </v-btn>
           <v-btn href="/archive/cv_new.pdf" prepend-icon="mdi-file-document-outline" variant="tonal">
             Resume

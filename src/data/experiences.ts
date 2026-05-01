@@ -17,7 +17,7 @@ const experiences: Experience[] = [
     imgPath: "/brands/rednote.svg",
     link: "https://www.xiaohongshu.com/",
     highlights: [
-      "Currently focus includes quantization, speculative decoding, sparse attention, and etc."
+      "Current focus includes quantization, speculative decoding, sparse attention, and etc."
     ],
   },
   {
@@ -34,7 +34,7 @@ const experiences: Experience[] = [
   },
   {
     title: "Citadel Securities",
-    role: "Quantitative Developer",
+    role: "Quantitative Developer, Trading Platform Team",
     time: "April. 2024 - Jul. 2024",
     location: "London, UK",
     imgPath: "/brands/citadel.svg",
