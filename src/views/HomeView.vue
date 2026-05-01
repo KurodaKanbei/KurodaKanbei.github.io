@@ -22,13 +22,13 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
     <v-row align="center" class="profile-grid">
       <v-col cols="12" md="3" class="photo-col">
         <v-img
-          src="/photo.png"
+          src="/fyd.jpg"
           alt="Yuda Fan"
           class="profile-photo d-none d-md-block"
           cover
         />
         <v-avatar size="150" class="d-md-none profile-avatar">
-          <v-img src="/photo.png" alt="Yuda Fan" cover />
+          <v-img src="/fyd.jpg" alt="Yuda Fan" cover />
         </v-avatar>
       </v-col>
       <v-col cols="12" md="9">
@@ -47,7 +47,7 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
             Intel AVX512 CPU, Nvidia GPU, Ascend NPU, and AMD Alveo FPGA.
           </p>
           <p>
-            I graduated from ETH Zurich with distinction in 2024 and received my B.Eng. with honor from the ACM Honor Class
+            I graduated from ETH Zurich with distinction in 2024 and received my B.Eng. with honor from the ACM Class
             at SJTU.
           </p>
         </div>
