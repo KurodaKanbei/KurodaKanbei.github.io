@@ -26,7 +26,7 @@ const education: EducationItem[] = [
     role: "B.Eng. in Computer Science, ACM Honor Class",
     time: "Sep. 2016 - Jun. 2020",
     location: "Shanghai, China",
-    imgPath: "/brands/sjtu.svg",
+    imgPath: "/brands/sjtu.png",
     link: "https://en.sjtu.edu.cn/",
     highlights: [
       "GPA: 90.3/100; Summa cum laude.",

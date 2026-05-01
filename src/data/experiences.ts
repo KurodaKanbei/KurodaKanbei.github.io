@@ -25,7 +25,7 @@ const experiences: Experience[] = [
     role: "Senior Engineer, Information Theory Group",
     time: "Nov. 2024 - Feb. 2026",
     location: "Hong Kong, China",
-    imgPath: "/brands/huawei.svg",
+    imgPath: "/brands/huawei.png",
     link: "https://www.huawei.com/",
     highlights: [
       "Built Omni-Infer features on top of vLLM and SGLang, including multi-token speculative decoding, rejection sampling, NPU accelerated sampling, and multistep execution.",
@@ -37,7 +37,7 @@ const experiences: Experience[] = [
     role: "Quantitative Developer, Trading Platform Team",
     time: "April. 2024 - Jul. 2024",
     location: "London, UK",
-    imgPath: "/brands/citadel.svg",
+    imgPath: "/brands/citadel.png",
     link: "https://www.citadelsecurities.com/",
     highlights: [
       "Worked on high frequency trading systems with a focus on exchange arbitrage.",
