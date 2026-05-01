@@ -14,8 +14,8 @@ interface ArchiveItem {
 const archiveItems: ArchiveItem[] = [
   {
     category: "Problem Sets",
-    name: "CCPC 2018 Jilin Onsite",
-    description: "Problem I and K are dedicated to Mr. Kazuki Takahashi, Dr. Richard Garfield",
+    name: "CCPC 2018 Jilin",
+    description: "Problem I and K are dedicated to Mr. Kazuki Takahashi and Dr. Richard Garfield",
     time: "2018",
     links: [
       { label: "Problems", href: "/archive/ccpc.pdf" },

@@ -33,7 +33,7 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
       </v-col>
       <v-col cols="12" md="9">
         <p class="eyebrow">AI Infra / HPC</p>
-        <h1>Yuda Fan | 范裕达</h1>
+        <h1>Fan Yuda | 范裕达</h1>
         <p class="subtitle">I drink water for what it is.</p>
         <div class="summary-copy">
           <p>
