@@ -32,7 +32,7 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
         </v-avatar>
       </v-col>
       <v-col cols="12" md="9">
-        <p class="eyebrow">AI Infra / High Performance Computing / Heterogenous Computing</p>
+        <p class="eyebrow">AI Infra / High Performance Computing / Heterogeneous Computing</p>
         <h1>Yuda Fan | 范裕达</h1>
         <p class="subtitle">I drink water for what it is.</p>
         <div class="summary-copy">
@@ -42,7 +42,7 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
             working on hardware-friendly techniques to improve LLM inference throughput and latency.
           </p>
           <p>
-            Previously, I worked on heterogenous computing and high performance computing at Huawei Hong Kong Research Center,
+            Previously, I worked on heterogeneous computing and high performance computing at HKRC,
             and on high frequency trading systems at Citadel Securities. My systems experience spans Armv8 CPU,
             Intel AVX512 CPU, Nvidia GPU, Ascend NPU, and AMD Alveo FPGA.
           </p>

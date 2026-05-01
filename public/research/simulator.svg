@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="CyberPanda Simulator">
-  <rect width="320" height="180" rx="16" fill="#fbf8f2"/>
-  <rect x="58" y="46" width="204" height="104" rx="12" fill="none" stroke="#176b87" stroke-width="8"/>
-  <path d="M90 124l41-47 38 35 28-24 33 36" fill="none" stroke="#c46f2d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="106" cy="70" r="11" fill="#7d5a50"/>
-  <text x="86" y="34" font-family="Inter, Arial, sans-serif" font-size="18" fill="#57534e">photorealistic simulator</text>
-</svg>

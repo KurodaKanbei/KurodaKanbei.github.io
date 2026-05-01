@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="USO Polytope">
-  <rect width="320" height="180" rx="16" fill="#f5f7fb"/>
-  <g fill="none" stroke="#7d5a50" stroke-width="6">
-    <path d="M91 54h86l52 36-52 36H91L39 90z"/>
-    <path d="M91 54l52 36-52 36M177 54l52 36-52 36M39 90h190"/>
-  </g>
-  <circle cx="143" cy="90" r="9" fill="#176b87"/>
-  <text x="76" y="154" font-family="Inter, Arial, sans-serif" font-size="18" fill="#57534e">unique sink orientations</text>
-</svg>

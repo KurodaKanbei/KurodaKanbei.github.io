@@ -29,8 +29,8 @@ const research: ResearchItem[] = [
   {
     title: "USO Polytope",
     authors: "Yuda Fan",
-    time: "Manuscript",
-    imgPath: "/research/polytope.svg",
+    time: "2022",
+    imgPath: "/research/USO.png",
     description: "Studies the structure of the polytope spanned by all unique sink orientations of a hypercube, via local and global views of relationships between USOs.",
     status: "Manuscript",
     links: [
@@ -40,7 +40,7 @@ const research: ResearchItem[] = [
   {
     title: "SDP Verifier",
     authors: "Yuda Fan, Linyi Li",
-    time: "Manuscript",
+    time: "2019",
     imgPath: "/research/verification.svg",
     description: "A neural network verification approach based on semi-definite programming and linear matrix inequalities, targeting the trade-off between expressiveness and tractability.",
     status: "Manuscript",
@@ -52,7 +52,7 @@ const research: ResearchItem[] = [
     title: "ROME: Robustifying Memory-Efficient NAS via Topology Disentanglement and Gradients Accumulation",
     authors: "Xiaoxing Wang, Xiangxiang Chu, Yuda Fan, Zhexi Zhang, Junchi Yan, Xiaokang Yang",
     time: "2023",
-    imgPath: "/research/nas.svg",
+    imgPath: "/research/nas.png",
     description: "A method for memory-efficient neural architecture search that addresses performance collapse in single-path DARTS-style training.",
     status: "ICCV 2023",
     links: [
