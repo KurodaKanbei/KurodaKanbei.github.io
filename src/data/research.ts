@@ -63,7 +63,7 @@ const research: ResearchItem[] = [
     title: "Transferable Active Grasping and Real Embodied Dataset",
     authors: "Xiangyu Chen, Zelin Ye, Jiankai Sun, Yuda Fan, Fang Hu, Chenxi Wang, Cewu Lu",
     time: "2020",
-    imgPath: "/research/robotics.svg",
+    imgPath: "/research/robotics.png",
     description: "A robotic grasping dataset and active viewpoint optimization strategy for more reliable grasping in sparse reward settings.",
     status: "ICRA 2020",
     links: [

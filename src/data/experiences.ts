@@ -12,8 +12,8 @@ const experiences: Experience[] = [
   {
     title: "Rednote Hilab",
     role: "Staff Engineer, AI Infra Team",
-    time: "2026 - Present",
-    location: "China",
+    time: "Feb. 2026 - Present",
+    location: "Beijing,China",
     imgPath: "/brands/rednote.svg",
     link: "https://www.xiaohongshu.com/",
     highlights: [
