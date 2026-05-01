@@ -10,11 +10,11 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: "Rednote Hilab",
+    title: "Rednote Dots",
     role: "Staff Engineer, AI Infra Team",
     time: "Feb. 2026 - Present",
     location: "Beijing,China",
-    imgPath: "/brands/rednote.svg",
+    imgPath: "/brands/rednote.png",
     link: "https://www.xiaohongshu.com/",
     highlights: [
       "Current focus includes quantization, speculative decoding, sparse attention, and etc."

@@ -39,7 +39,7 @@ const education: EducationItem[] = [
     role: "Technical Staff",
     time: "2019 - 2020",
     location: "China",
-    imgPath: "/brands/ccf.svg",
+    imgPath: "/brands/ccf.png",
     link: "https://www.noi.cn/",
     highlights: [
       "Member of technical staff of CCF NOI.",
