@@ -66,41 +66,6 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
     </v-row>
   </section>
 
-  <section id="card-education" class="content-section">
-    <div class="section-heading">
-      <h2>Education</h2>
-    </div>
-    <div class="timeline-list">
-      <v-card
-        v-for="item in education"
-        :key="item.title"
-        class="entry-card"
-        variant="outlined"
-      >
-        <v-row align="center">
-          <v-col cols="12" md="3" class="logo-col">
-            <a :href="item.link" target="_blank" class="logo-link">
-              <v-img :src="item.imgPath" :alt="item.title" class="entry-logo" />
-            </a>
-          </v-col>
-          <v-col cols="12" md="9">
-            <div class="entry-header">
-              <div>
-                <a :href="item.link" target="_blank" class="entry-title">{{ item.title }}</a>
-                <p class="entry-role">{{ item.role }}</p>
-              </div>
-              <v-chip size="small" color="primary" variant="tonal">{{ item.time }}</v-chip>
-            </div>
-            <p class="entry-location">{{ item.location }}</p>
-            <ul class="compact-list">
-              <li v-for="highlight in item.highlights" :key="highlight">{{ highlight }}</li>
-            </ul>
-          </v-col>
-        </v-row>
-      </v-card>
-    </div>
-  </section>
-
   <section id="card-experience" class="content-section">
     <div class="section-heading">
       <h2>Experience</h2>
@@ -129,6 +94,41 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
             <p class="entry-location">{{ experience.location }}</p>
             <ul class="compact-list">
               <li v-for="highlight in experience.highlights" :key="highlight">{{ highlight }}</li>
+            </ul>
+          </v-col>
+        </v-row>
+      </v-card>
+    </div>
+  </section>
+
+  <section id="card-education" class="content-section">
+    <div class="section-heading">
+      <h2>Education</h2>
+    </div>
+    <div class="timeline-list">
+      <v-card
+        v-for="item in education"
+        :key="item.title"
+        class="entry-card"
+        variant="outlined"
+      >
+        <v-row align="center">
+          <v-col cols="12" md="3" class="logo-col">
+            <a :href="item.link" target="_blank" class="logo-link">
+              <v-img :src="item.imgPath" :alt="item.title" class="entry-logo" />
+            </a>
+          </v-col>
+          <v-col cols="12" md="9">
+            <div class="entry-header">
+              <div>
+                <a :href="item.link" target="_blank" class="entry-title">{{ item.title }}</a>
+                <p class="entry-role">{{ item.role }}</p>
+              </div>
+              <v-chip size="small" color="primary" variant="tonal">{{ item.time }}</v-chip>
+            </div>
+            <p class="entry-location">{{ item.location }}</p>
+            <ul class="compact-list">
+              <li v-for="highlight in item.highlights" :key="highlight">{{ highlight }}</li>
             </ul>
           </v-col>
         </v-row>

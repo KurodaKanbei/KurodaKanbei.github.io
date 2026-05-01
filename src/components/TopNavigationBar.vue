@@ -13,11 +13,11 @@
       <v-btn to="/#card-overview" prepend-icon="mdi-home-outline" variant="text" :active="false">
         Home
       </v-btn>
-      <v-btn to="/#card-education" prepend-icon="mdi-school-outline" variant="text" :active="false">
-        Education
-      </v-btn>
       <v-btn to="/#card-experience" prepend-icon="mdi-briefcase-outline" variant="text" :active="false">
         Experience
+      </v-btn>
+      <v-btn to="/#card-education" prepend-icon="mdi-school-outline" variant="text" :active="false">
+        Education
       </v-btn>
       <v-btn to="/#card-research" prepend-icon="mdi-flask-outline" variant="text" :active="false">
         Research
@@ -36,13 +36,13 @@
       <v-icon icon="mdi-home-outline" />
       <span>Home</span>
     </v-btn>
-    <v-btn to="/#card-education" :active="false">
-      <v-icon icon="mdi-school-outline" />
-      <span>Edu</span>
-    </v-btn>
     <v-btn to="/#card-experience" :active="false">
       <v-icon icon="mdi-briefcase-outline" />
       <span>Work</span>
+    </v-btn>
+    <v-btn to="/#card-education" :active="false">
+      <v-icon icon="mdi-school-outline" />
+      <span>Edu</span>
     </v-btn>
     <v-btn to="/#card-research" :active="false">
       <v-icon icon="mdi-flask-outline" />
