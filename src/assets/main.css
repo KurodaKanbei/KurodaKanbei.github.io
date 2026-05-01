@@ -320,6 +320,10 @@ h1 {
     min-height: auto;
   }
 
+  .profile-avatar {
+    margin-top: 10px;
+  }
+
   h1 {
     font-size: 34px;
     text-align: center;
