@@ -23,7 +23,7 @@ const research: ResearchItem[] = [
     status: "JCDCGGG, Invited to special issue",
     links: [
       { label: "Paper", href: "/publications/JCDCG_2024.pdf" },
-      { label: "Master Thesis", href: "/publications/MT.pdf" },
+      { label: "Diploma Thesis", href: "/publications/MT.pdf" },
     ],
   },
   {
@@ -39,7 +39,7 @@ const research: ResearchItem[] = [
   },
   {
     title: "SDP Verifier",
-    authors: "Yuda Fan, L. Li",
+    authors: "Yuda Fan, Linyi Li",
     time: "Manuscript",
     imgPath: "/research/verification.svg",
     description: "A neural network verification approach based on semi-definite programming and linear matrix inequalities, targeting the trade-off between expressiveness and tractability.",

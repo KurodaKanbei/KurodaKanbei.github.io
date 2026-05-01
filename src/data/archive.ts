@@ -15,7 +15,7 @@ const archiveItems: ArchiveItem[] = [
   {
     category: "Problem Sets",
     name: "CCPC 2018 Jilin Onsite",
-    description: "Problem I and K are dedicated to Mr. Kazuki Takahashi, Dr. Richard Garfield, and the people who ceaselessly bring happiness and integrity to this world.",
+    description: "Problem I and K are dedicated to Mr. Kazuki Takahashi, Dr. Richard Garfield",
     time: "2018",
     links: [
       { label: "Problems", href: "/archive/ccpc.pdf" },
@@ -25,10 +25,10 @@ const archiveItems: ArchiveItem[] = [
   {
     category: "Problem Sets",
     name: "National Olympiad of Informatics 2019",
-    description: "Problem A is dedicated to my beloved girlfriend Dawn.",
+    description: "Problem A is dedicated to my beloved girlfriend Dawn, who has been a constant source of support and inspiration throughout my journey.",
     time: "2019",
     links: [
-      { label: "PDF", href: "/archive/noi.pdf" },
+      { label: "Problems", href: "/archive/noi.pdf" },
     ],
   },
   {
@@ -46,7 +46,7 @@ const archiveItems: ArchiveItem[] = [
     description: "Problem 8 is a combinatorial gem built on the Erdos-Szekeres theorem.",
     time: "2023",
     links: [
-      { label: "Image", href: "/archive/CGMO.png" },
+      { label: "Problems", href: "/archive/CGMO.png" },
     ],
   },
   {
@@ -55,14 +55,14 @@ const archiveItems: ArchiveItem[] = [
     description: "Problem I is built on a corollary of the JCDCGGG paper, the hidden point set of a staircase polygon.",
     time: "2024",
     links: [
-      { label: "PDF", href: "/archive/ecf24.pdf" },
+      { label: "Problems", href: "/archive/ecf24.pdf" },
     ],
   },
   {
     category: "Random Pieces",
     name: "56 Interesting Problems from Andrew Stankevich Contest",
     description: "My collection of selected ASC problems from the past 20 years with personal solutions.",
-    time: "Chinese",
+    time: "Slides",
     links: [
       { label: "PDF", href: "/archive/ASC_Problems.pdf" },
     ],
