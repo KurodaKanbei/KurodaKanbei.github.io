@@ -18,7 +18,7 @@ const research: ResearchItem[] = [
     title: "Hidden Points and Hidden Vertices in Classes of Polygons",
     authors: "Yuda Fan",
     time: "2024",
-    imgPath: "/research/geometry.svg",
+    imgPath: "/research/hidden.png",
     description: "Visibility problems in polygons, including approximation and exact algorithms for pseudo-triangles, terrains, fan-shaped polygons, staircase polygons, and related classes.",
     status: "JCDCGGG, Invited to special issue",
     links: [
@@ -41,7 +41,7 @@ const research: ResearchItem[] = [
     title: "SDP Verifier",
     authors: "Yuda Fan, Linyi Li",
     time: "2019",
-    imgPath: "/research/verification.svg",
+    imgPath: "/research/sdp.png",
     description: "A neural network verification approach based on semi-definite programming and linear matrix inequalities, targeting the trade-off between expressiveness and tractability.",
     status: "Manuscript",
     links: [

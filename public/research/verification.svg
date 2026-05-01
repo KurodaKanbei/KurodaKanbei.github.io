@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-label="SDP Verification">
-  <rect width="320" height="180" rx="16" fill="#f2f8fa"/>
-  <rect x="56" y="46" width="84" height="84" rx="10" fill="none" stroke="#176b87" stroke-width="7"/>
-  <path d="M73 96l18 18 35-48" fill="none" stroke="#2f8f5b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M174 62h86M174 90h64M174 118h72" stroke="#7d5a50" stroke-width="8" stroke-linecap="round"/>
-  <text x="62" y="154" font-family="Inter, Arial, sans-serif" font-size="18" fill="#57534e">semi-definite verifier</text>
-</svg>
