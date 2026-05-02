@@ -205,6 +205,7 @@ h1 {
   flex-shrink: 0;
   align-self: flex-start;
   white-space: nowrap;
+  font-variant-numeric: tabular-nums;
 }
 
 .entry-title,
@@ -345,6 +346,8 @@ h1 {
 
   .entry-header .v-chip {
     justify-self: end;
+    min-inline-size: 10.5rem;
+    justify-content: center;
   }
 
   .archive-card-header {

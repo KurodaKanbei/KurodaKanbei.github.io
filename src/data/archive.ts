@@ -7,6 +7,7 @@ interface ArchiveItem {
   category: string;
   name: string;
   description: string;
+  descriptionHtml?: string;
   time: string;
   links: ArchiveLink[];
 }
@@ -14,8 +15,8 @@ interface ArchiveItem {
 const archiveItems: ArchiveItem[] = [
   {
     category: "Problem Sets",
-    name: "CCPC 2018 Jilin",
-    description: "Problem I and K are dedicated to Mr. Kazuki Takahashi and Dr. Richard Garfield",
+    name: "CCPC 2018",
+    description: "Problem I and K are dedicated to Mr. Kazuki Takahashi and Dr. Richard Garfield, who created the fascinating world of Yu-Gi-Oh! and Magic: The Gathering, respectively.",
     time: "2018",
     links: [
       { label: "Problems", href: "/archive/ccpc.pdf" },
@@ -25,7 +26,8 @@ const archiveItems: ArchiveItem[] = [
   {
     category: "Problem Sets",
     name: "National Olympiad of Informatics 2019",
-    description: "Problem A is dedicated to my beloved girlfriend Dongxiao, who constantly supports and inspires me throughout my journey.",
+    description: "Problem A is dedicated to my love Dawn, who constantly supports and inspires me throughout my journey.",
+    descriptionHtml: "Problem A is dedicated to my love <a href=\"https://www.linkedin.com/in/%E5%86%AC%E6%99%93-%E6%AF%9B-808867252/\" target=\"_blank\" rel=\"noopener noreferrer\">Dawn</a>, who constantly supports and inspires me throughout my journey.",
     time: "2019",
     links: [
       { label: "Problems", href: "/archive/noi.pdf" },
@@ -70,7 +72,7 @@ const archiveItems: ArchiveItem[] = [
   {
     category: "Random Pieces",
     name: "Simple Polygonization",
-    description: "An old ongoing projects section.",
+    description: "An old combinatorial geometry project.",
     time: "Draft",
     links: [
       { label: "PDF", href: "/archive/SP.pdf" },

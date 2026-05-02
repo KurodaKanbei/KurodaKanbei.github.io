@@ -204,7 +204,8 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
               <h4>{{ item.name }}</h4>
               <v-chip size="x-small" variant="tonal">{{ item.time }}</v-chip>
             </div>
-            <p>{{ item.description }}</p>
+            <p v-if="item.descriptionHtml" v-html="item.descriptionHtml"></p>
+            <p v-else>{{ item.description }}</p>
             <div class="inline-links">
               <v-btn
                 v-for="link in item.links"
