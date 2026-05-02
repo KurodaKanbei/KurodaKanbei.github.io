@@ -28,7 +28,7 @@ const awards: Award[] = [
   {
     year: "2020",
     name: "Outstanding Graduate of Shanghai Jiao Tong University",
-    description: "Graduation honor",
+    description: "Graduation honor.",
   },
   {
     year: "2020",

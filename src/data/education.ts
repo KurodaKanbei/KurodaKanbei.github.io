@@ -17,7 +17,7 @@ const education: EducationItem[] = [
     imgPath: "/brands/eth.jpg",
     link: "https://ethz.ch/",
     highlights: [
-      "Ph.D. researcher in Prof. Emo Welzl's group at CADMO, working on computational geometry, discrete geometry, and combinatorics.",
+      "Doctorate researcher in Prof. Emo Welzl's group at CADMO, working on computational geometry, discrete geometry, and combinatorics.",
       "Graduated from ETH Zurich with distinction in 2024."
     ],
   },
@@ -48,7 +48,7 @@ const education: EducationItem[] = [
   },
   {
     title: "SJTU ICPC Team",
-    role: "Team Leader and Head Coach",
+    role: "Team Leader and Coach",
     time: "2016 - 2019",
     location: "Shanghai, China",
     imgPath: "/brands/icpc.png",

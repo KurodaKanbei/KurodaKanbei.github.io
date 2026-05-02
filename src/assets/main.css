@@ -274,6 +274,16 @@ h1 {
   margin-bottom: 10px;
 }
 
+.archive-card-header h4 {
+  min-width: 0;
+}
+
+.archive-card-header .v-chip {
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
 .archive-card h4 {
   color: #182023;
   font-size: 17px;
@@ -352,6 +362,14 @@ h1 {
 
   .archive-card-header {
     display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: flex-start;
+  }
+
+  .archive-card-header .v-chip {
+    justify-self: end;
+    min-inline-size: 6.5rem;
+    justify-content: center;
   }
 
   .entry-card,

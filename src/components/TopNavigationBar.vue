@@ -11,7 +11,7 @@
       </v-btn>
       <v-spacer />
       <v-btn to="/#card-overview" prepend-icon="mdi-home-outline" variant="text" :active="false">
-        Home
+        About Me
       </v-btn>
       <v-btn to="/#card-experience" prepend-icon="mdi-briefcase-outline" variant="text" :active="false">
         Experience
@@ -34,7 +34,7 @@
   <v-bottom-navigation class="d-md-none mobile-nav" grow :elevation="4">
     <v-btn to="/#card-overview" :active="false">
       <v-icon icon="mdi-home-outline" />
-      <span>Home</span>
+      <span>About Me</span>
     </v-btn>
     <v-btn to="/#card-experience" :active="false">
       <v-icon icon="mdi-briefcase-outline" />
