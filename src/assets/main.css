@@ -282,6 +282,8 @@ h1 {
   flex-shrink: 0;
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
+  inline-size: 6.5rem;
+  justify-content: center;
 }
 
 .archive-card h4 {
@@ -368,8 +370,6 @@ h1 {
 
   .archive-card-header .v-chip {
     justify-self: end;
-    min-inline-size: 6.5rem;
-    justify-content: center;
   }
 
   .entry-card,
