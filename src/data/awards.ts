@@ -8,12 +8,12 @@ const awards: Award[] = [
   {
     year: "2025",
     name: "Winner, Huawei Hackathon Software Challenge Final",
-    description: "Final contest winner.",
+    description: "Winner of final contest.",
   },
   {
     year: "2025",
     name: "2nd Place, Huawei Software Challenge Preliminary Contest",
-    description: "Software challenge preliminary round.",
+    description: "Software challenge preliminary contest.",
   },
   {
     year: "2021",
@@ -65,11 +65,11 @@ const awards: Award[] = [
     name: "Gold Medal, 9th Place, ACM-ICPC 2016-2017 Myanmar Regional Contest",
     description: "Competitive programming.",
   },
-  // {
-  //   year: "2017",
-  //   name: "Gold Medal, 7th Place, ACM-ICPC 2016-2017 Xi'an Invitation Contest",
-  //   description: "Competitive programming.",
-  // },
+  {
+    year: "2017",
+    name: "Gold Medal, 7th Place, ACM-ICPC 2016-2017 Xi'an Invitation Contest",
+    description: "Competitive programming.",
+  },
 ]
 
 export { awards, type Award }
