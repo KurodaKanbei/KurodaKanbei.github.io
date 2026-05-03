@@ -54,7 +54,7 @@ const archiveItems: ArchiveItem[] = [
   {
     category: "Problem Sets",
     name: "Asia East Continent Final 2024",
-    description: "Problem H is built on a corollary of the JCDCGGG paper, the hidden point set of a staircase polygon.",
+    description: "Problem H is built on a corollary of my JCDCGGG paper, which computes the hidden point set of a staircase polygon in linear time.",
     time: "2024",
     links: [
       { label: "Problems", href: "/archive/ecf24.pdf" },
