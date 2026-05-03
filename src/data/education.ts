@@ -18,7 +18,7 @@ const education: EducationItem[] = [
     imgPath: "/brands/eth.jpg",
     link: "https://ethz.ch/",
     highlights: [
-      "Doctorate researcher in Prof. Emo Welzl's group at CADMO, working on computational geometry, discrete geometry, and combinatorics.",
+      "Doctorate researcher at CADMO, working on computational geometry, discrete geometry, and combinatorics.",
       "Graduated from ETH Zurich with distinction in 2024."
     ],
   },
@@ -56,11 +56,11 @@ const education: EducationItem[] = [
     link: "https://icpc.global/",
     highlights: [
       "Head coach of the competitive programming team of SJTU from 2018 to 2019.",
-      "Team leader of Laevatein(Zhuolin Yang, Yaoyao Ding, 2016), Wizards(Luoxuan Li, Yuxuan Chen, 2017)."
+      "Team leader of Laevatein(Zhuolin Yang, Yaoyao Ding, 2016) and Wizards(Luoxuan Li, Yuxuan Chen, 2017)."
     ],
     highlightsHtml: [
       "Head coach of the competitive programming team of SJTU from 2018 to 2019.",
-      "Team leader of Laevatein(<a href=\"https://scholar.google.com/citations?user=BvSv-C0AAAAJ&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Zhuolin Yang</a>, <a href=\"https://scholar.google.com/citations?user=suza15wAAAAJ&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Yaoyao Ding</a>, 2016), Wizards(<a href=\"https://codeforces.com/profile/LLX\" target=\"_blank\" rel=\"noopener noreferrer\">Luoxuan Li</a>, <a href=\"https://codeforces.com/profile/lgkm39\" target=\"_blank\" rel=\"noopener noreferrer\">Yuxuan Chen</a>, 2017)."
+      "Team leader of Laevatein(<a href=\"https://scholar.google.com/citations?user=BvSv-C0AAAAJ&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Zhuolin Yang</a>, <a href=\"https://scholar.google.com/citations?user=suza15wAAAAJ&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Yaoyao Ding</a>, 2016) and Wizards(<a href=\"https://codeforces.com/profile/LLX\" target=\"_blank\" rel=\"noopener noreferrer\">Luoxuan Li</a>, <a href=\"https://codeforces.com/profile/lgkm39\" target=\"_blank\" rel=\"noopener noreferrer\">Yuxuan Chen</a>, 2017)."
     ],
   },
 ]
