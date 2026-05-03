@@ -134,7 +134,10 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
             </div>
             <p class="entry-location">{{ item.location }}</p>
             <ul class="compact-list">
-              <li v-for="highlight in item.highlights" :key="highlight">{{ highlight }}</li>
+              <li v-for="(highlight, index) in (item.highlightsHtml ?? item.highlights)" :key="`${item.title}-${index}`">
+                <span v-if="item.highlightsHtml" v-html="highlight"></span>
+                <span v-else>{{ highlight }}</span>
+              </li>
             </ul>
           </v-col>
         </v-row>

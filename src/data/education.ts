@@ -6,6 +6,7 @@ interface EducationItem {
   imgPath: string;
   link: string;
   highlights: string[];
+  highlightsHtml?: string[];
 }
 
 const education: EducationItem[] = [
@@ -43,7 +44,7 @@ const education: EducationItem[] = [
     link: "https://www.noi.cn/",
     highlights: [
       "Technical staff of CCF NOI contest series.",
-      "Problem setter for CCF NOI 2019, with broader contest service including ICPC ECL Final and CCPC."
+      "Problem setter for CCF NOI 2019, with broader contest service including ICPC and CCPC."
     ],
   },
   {
@@ -55,7 +56,11 @@ const education: EducationItem[] = [
     link: "https://icpc.global/",
     highlights: [
       "Head coach of the competitive programming team of SJTU from 2018 to 2019.",
-      "Placed 2nd at ACM-ICPC 2017-2018 Hua-Lien Regional Contest and 6th at ACM-ICPC 2017-2018 Xi'an Regional Contest."
+      "Team leader of Laevatein(Zhuolin Yang, Yaoyao Ding, 2016), Wizards(Luoxuan Li, Yuxuan Chen, 2017)."
+    ],
+    highlightsHtml: [
+      "Head coach of the competitive programming team of SJTU from 2018 to 2019.",
+      "Team leader of Laevatein(<a href=\"https://scholar.google.com/citations?user=BvSv-C0AAAAJ&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Zhuolin Yang</a>, <a href=\"https://scholar.google.com/citations?user=suza15wAAAAJ&amp;hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">Yaoyao Ding</a>, 2016), Wizards(<a href=\"https://codeforces.com/profile/LLX\" target=\"_blank\" rel=\"noopener noreferrer\">Luoxuan Li</a>, <a href=\"https://codeforces.com/profile/lgkm39\" target=\"_blank\" rel=\"noopener noreferrer\">Yuxuan Chen</a>, 2017)."
     ],
   },
 ]
