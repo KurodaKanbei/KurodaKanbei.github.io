@@ -26,7 +26,7 @@ const archiveItems: ArchiveItem[] = [
   {
     category: "Problem Sets",
     name: "National Olympiad of Informatics 2019",
-    description: "Problem A is dedicated to my love Dawn, who constantly supports and inspires me throughout my journey from Hongkong to Beijing.",
+    description: "Problem A is dedicated to my love Dawn, who constantly supports and inspires me throughout my journey from Hong Kong to Beijing.",
     descriptionHtml: "Problem A is dedicated to my love <a href=\"https://www.linkedin.com/in/%E5%86%AC%E6%99%93-%E6%AF%9B-808867252/\" target=\"_blank\" rel=\"noopener noreferrer\">Dawn</a>, who constantly supports and inspires me throughout my journey from Hong Kong to Beijing.",
     time: "2019",
     links: [
