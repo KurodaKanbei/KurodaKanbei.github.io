@@ -11,7 +11,7 @@ interface Experience {
 const experiences: Experience[] = [
   {
     title: "Rednote Dots",
-    role: "Staff Engineer, AI Infra Team",
+    role: "Staff Engineer & Tech Lead, AI Infra Team",
     time: "Feb. 2026 - Present",
     location: "Beijing, China",
     imgPath: "/brands/rednote.png",
@@ -22,7 +22,7 @@ const experiences: Experience[] = [
   },
   {
     title: "Huawei Hong Kong Research Center",
-    role: "Senior Engineer, Information Theory Group",
+    role: "Senior Engineer, Information Theory Team",
     time: "Nov. 2024 - Feb. 2026",
     location: "Hong Kong, China",
     imgPath: "/brands/huawei.png",
@@ -33,7 +33,7 @@ const experiences: Experience[] = [
     ],
   },
   {
-    title: "Citadel Securities",
+    title: "Citadel Securities London",
     role: "Quantitative Developer, Trading Platform Team",
     time: "April. 2024 - Jul. 2024",
     location: "London, UK",
