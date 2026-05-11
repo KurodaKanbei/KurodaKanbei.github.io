@@ -10,8 +10,8 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: "Rednote Dots",
-    role: "Staff Engineer & Tech Lead, AI Infra Team",
+    title: "Rednote Dots Studio",
+    role: "Staff Engineer, AI Infra Team",
     time: "Feb. 2026 - Present",
     location: "Beijing, China",
     imgPath: "/brands/rednote.png",
