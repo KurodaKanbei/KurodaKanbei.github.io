@@ -12,7 +12,7 @@ interface EducationItem {
 const education: EducationItem[] = [
   {
     title: "ETH Zurich",
-    role: "Direct Doctorate Program and M.Sc. in Computer Science",
+    role: "Direct Doctorate and M.Sc. in Computer Science",
     time: "Sep. 2021 - May 2024",
     location: "Zurich, Switzerland",
     imgPath: "/brands/eth.jpg",
