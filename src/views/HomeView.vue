@@ -55,7 +55,7 @@ const linkTarget = (href: string) => href.startsWith("http") ? "_blank" : undefi
           <v-btn href="mailto:mistergalahad@gmail.com" prepend-icon="mdi-email-outline" variant="tonal">
             Email
           </v-btn>
-          <v-btn href="/archive/resume.pdf" prepend-icon="mdi-file-document-outline" variant="tonal">
+          <v-btn href="/archive/fyd.pdf" prepend-icon="mdi-file-document-outline" variant="tonal">
             Resume
           </v-btn>
           <v-btn
