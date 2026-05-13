@@ -55,11 +55,11 @@ const awards: Award[] = [
     name: "Gold Medal, 6th Place, ACM-ICPC 2017-2018 Xi'an Regional Contest",
     description: "Competitive programming.",
   },
-  {
-    year: "2017",
-    name: "Gold Medal, 9th Place, CCPC 2017 Hangzhou Regional Contest",
-    description: "Competitive programming.",
-  },
+  // {
+  //   year: "2017",
+  //   name: "Gold Medal, 9th Place, CCPC 2017 Hangzhou Regional Contest",
+  //   description: "Competitive programming.",
+  // },
   {
     year: "2016",
     name: "Gold Medal, 9th Place, ACM-ICPC 2016-2017 Myanmar Regional Contest",
